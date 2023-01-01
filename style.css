@@ -100,7 +100,7 @@ footer {
   width: 100%;
   background-color: #e2edff;
   border-left: 3px solid;
-  animation: animate 2s steps(12) infinite;
+  animation: animate 4s steps(12) infinite;
 }
 @keyframes animate {
   40%,
