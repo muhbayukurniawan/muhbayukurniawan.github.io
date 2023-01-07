@@ -86,28 +86,7 @@ footer {
   background-color: #69a6ff;
 }
 
-.write .text {
-  position: relative;
+.type {
   font-size: 30px;
   font-weight: bold;
-}
-.text.sec-text:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #e2edff;
-  border-left: 3px solid;
-  animation: animate 4s steps(12) infinite;
-}
-@keyframes animate {
-  40%,
-  60% {
-    left: 100%;
-  }
-  100% {
-    left: 0%;
-  }
 }

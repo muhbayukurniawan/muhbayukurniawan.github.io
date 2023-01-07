@@ -12,7 +12,6 @@
   </head>
   <body>
     <!-- Navbar -->
-
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow" style="background-color: #69a6ff">
       <div class="container">
         <a class="navbar-brand" href="#">My Portfolio</a>
@@ -43,24 +42,9 @@
         </div>
       </div>
     </nav>
-    <!-- Akhir Navbar -->
+    <!-- Navbar End -->
 
-    <!-- Jumbotron -->
-    <!-- <section class="jumbotron text-center">
-      <img src="image/Profile-01.png" alt="Bayu Kurniawan" width="250" class="rounded-circle" />
-      <h1 class="display-5">Muhammad Bayu Kurniawan</h1>
-      <p class="lead">Graphic Designer | Jobseeker</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffff"
-          fill-opacity="1"
-          d="M0,160L40,160C80,160,160,160,240,170.7C320,181,400,203,480,181.3C560,160,640,96,720,85.3C800,75,880,117,960,138.7C1040,160,1120,160,1200,154.7C1280,149,1360,139,1400,133.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-        ></path>
-      </svg>
-    </section> -->
-    <!-- Akhir Jumbotron -->
-
-    <!-- Akhir Home -->
+    <!-- Home -->
     <section id="home" class="home">
       <div class="container-lg">
         <div class="row min-vh-100 align-items-center">
@@ -71,10 +55,7 @@
           </div>
           <div class="col-md-6">
             <div class="home-text text-left">
-              <div class="write">
-                <span class="text first-text">Hello</span>
-                <span class="text sec-text">World</span>
-              </div>
+              <p class="type">Hello <span class="type-animate"></span></p>
               <h6>I'm</h6>
               <h1 class="text-primary text-uppercase fs-1 fw-bold">Muhammad Bayu Kurniawan</h1>
               <p>I graduated from SMK Negeri 3 Jepara majoring in Computer and Network Engineering in June 2022. Web Development, Computer Networking, Graphic Design, and Other Technology (Related Topics) are very interesting to me</p>
@@ -96,7 +77,7 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Home -->
+    <!-- Home End -->
 
     <!-- Abbout -->
     <section id="abbout">
@@ -121,7 +102,7 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Abbout -->
+    <!-- Abbout End -->
 
     <!-- Skills -->
     <section id="skills">
@@ -172,7 +153,7 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Skills -->
+    <!-- Skills End -->
 
     <!-- Certificate -->
     <section id="certificate">
@@ -282,7 +263,6 @@
               </div>
             </div>
           </div>
-          <!-- Akhir Popup -->
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -293,35 +273,26 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhhir Certificate -->
+    <!-- Certificate End -->
 
     <!-- Footer -->
     <footer class="text-white light text-center">
       <h6>©2022 | Muhammad Bayu Kurniawan</h6>
     </footer>
-    <!-- Akhir Footer -->
+    <!-- Footer End-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script>
-      const text = document.querySelector(".sec-text");
-
-      const textLoad = () => {
-        setTimeout(() => {
-          text.textContent = "World,";
-        }, 0);
-        setTimeout(() => {
-          text.textContent = "Everyone,";
-        }, 4000);
-        setTimeout(() => {
-          text.textContent = "Folks, ";
-        }, 8000);
-      };
-
-      textLoad();
-      setInterval(textLoad, 12000);
-    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".type-animate", {
+        strings: ["World,", "Everyone,", "Folks,"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 100,
+      });
     </script>
   </body>
 </html>
