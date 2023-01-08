@@ -1,9 +1,6 @@
 body {
   overflow-x: hidden;
 }
-/* #skills {
-  background-color: #e2edff;
-} */
 #home {
   padding-top: 2rem;
   padding-bottom: 0;
@@ -12,15 +9,6 @@ section {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-/* #abbout {
-  padding-bottom: 5rem;
-}
-#certificate {
-  padding-bottom: 5rem;
-} */
-/* .home {
-  background-color: #e2edff;
-} */
 #skills .card {
   background-color: #e2edff;
 }
