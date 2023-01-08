@@ -1,10 +1,48 @@
 body {
   overflow-x: hidden;
 }
-#skills {
+/* #skills {
+  background-color: #e2edff;
+} */
+#home {
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+/* #abbout {
+  padding-bottom: 5rem;
+}
+#certificate {
+  padding-bottom: 5rem;
+} */
+/* .home {
+  background-color: #e2edff;
+} */
+#skills .card {
   background-color: #e2edff;
 }
-/* Toggle */
+#certificate .card {
+  background-color: #e2edff;
+}
+
+.type {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
 /* Remove border from toggler */
 .navbar-toggler {
   border: 0 !important;
@@ -71,22 +109,7 @@ body {
 
 /* End Toggle */
 
-section {
-  padding-top: 5rem;
-}
-.home {
-  background-color: #e2edff;
-}
-
-#certificate .card {
-  background-color: #e2edff;
-}
-
 footer {
-  background-color: #69a6ff;
-}
-
-.type {
-  font-size: 30px;
-  font-weight: bold;
+  background-color: #0d6efd;
+  /* background-color: #69a6ff; */
 }
