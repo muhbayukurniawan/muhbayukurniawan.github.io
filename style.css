@@ -1,6 +1,9 @@
 body {
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+}
 #home {
   padding-top: 2rem;
   padding-bottom: 0;
@@ -94,10 +97,4 @@ section {
 .navbar-toggler.collapsed .toggler-icon {
   background-color: #e2edff;
 }
-
 /* End Toggle */
-
-footer {
-  background-color: #0d6efd;
-  /* background-color: #69a6ff; */
-}
